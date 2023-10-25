@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.side-item {
+  color: rgb(245, 245, 245);
+  transition: all 0.1s linear;
+  border-radius: 6px;
+}
+
+.side-item:hover {
+  background-color: rgb(245, 245, 245);
+  color: #262e41;
+  transition: all 0.1s linear;
+}
+.active {
+  margin-right: -12px;
+  border-radius: 6px 0 0 6px;
+  background-color: rgb(245, 245, 245);
+  color: #262e41;
+}
+
+.ant-btn-primary {
+  background-color: #507ffe !important;
+  color: white !important;
+}
