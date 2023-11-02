@@ -7,11 +7,6 @@ const routerSlice = createSlice({
     hello: "hello bro",
   },
   name: "routerSlice",
-  //   reducers: {
-  //     getRoutes: (state, action) => {
-  //       return state.routes;
-  //     },
-  //   },
 });
 
 // export const { getRoutes } = routerSlice.actions;
